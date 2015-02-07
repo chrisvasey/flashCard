@@ -12,7 +12,7 @@ html, body {
 	margin: 0px;
 	width: 100%;
 	height: 100%;
-	background: #ffff00;
+	background: #ffff1a;
 	.card {
 		padding: 0px;
 		margin: 0px;
@@ -22,10 +22,40 @@ html, body {
 		left: 50%;
 		width: 98%;
 		height: 98%;
-		border: 3px solid #000047;
-		.title {
-			text-align: center;
-			font-weight: 0;
+		border: 3px solid #000050;
+		.cardContent {
+			position: relative;
+		  	top: 50%;
+		  	transform: translate(-50%, -50%);
+			left: 50%;
+			.title {
+				text-align: center;
+				font-weight: 0;
+				font-size: 60px;
+				// font-family: 'mostraoneregularregular';
+				font-family: 'mostraoneboldregular';
+				color: #000050;
+			}
+			p {
+				text-align: center;
+				font-size: 38px;
+				font-family: 'mostraoneregularregular';
+				color: #000050;
+			}
+			hr {
+				border-top: 3px solid #000050;
+				width: 10%; 
+			}
+			h2 {
+				color: #000050;
+				text-align: center;
+				font-weight: 0;
+				font-size: 28px;
+				font-family: 'mostraoneboldregular';
+					span {
+						font-family: 'Cedarville Cursive', cursive;
+					}
+			}
 		}
 	}
 }
